@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDP Support Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CDP Support Chatbot</h1>
+            <p class="subtitle">Ask me how-to questions about Segment, mParticle, Lytics, and Zeotap</p>
+        </header>
+
+        <main>
+            <div class="chat-container">
+                <div id="chat-messages">
+                    <div class="message bot">
+                        <div class="message-content">
+                            Hello! I'm your CDP support assistant. I can help you with questions about:
+                            <ul>
+                                <li>Segment</li>
+                                <li>mParticle</li>
+                                <li>Lytics</li>
+                                <li>Zeotap</li>
+                            </ul>
+                            Ask me how to perform specific tasks in these platforms!
+                        </div>
+                    </div>
+                </div>
+                <div class="input-container">
+                    <form id="chat-form">
+                        <input type="text" 
+                               id="user-input" 
+                               placeholder="Ask a question... (e.g., 'How do I set up a new source in Segment?')"
+                               autocomplete="off">
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Examples:</p>
+            <ul class="examples">
+                <li>"How do I set up a new source in Segment?"</li>
+                <li>"How can I create a user profile in mParticle?"</li>
+                <li>"How do I build an audience segment in Lytics?"</li>
+                <li>"Compare audience creation in Segment vs Lytics"</li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

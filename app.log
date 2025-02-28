@@ -1,0 +1,159 @@
+[2025-02-28 11:47:24,028] ERROR in indexer: Error initializing indexer: 
+**********************************************************************
+  Resource [93mpunkt[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt/PY3/english.pickle[0m
+
+  Searched in:
+    - '/root/nltk_data'
+    - '/home/codespace/.python/current/nltk_data'
+    - '/home/codespace/.python/current/share/nltk_data'
+    - '/home/codespace/.python/current/lib/nltk_data'
+    - '/usr/share/nltk_data'
+    - '/usr/local/share/nltk_data'
+    - '/usr/lib/nltk_data'
+    - '/usr/local/lib/nltk_data'
+    - ''
+**********************************************************************
+
+[2025-02-28 11:48:56,446] ERROR in indexer: Error initializing indexer: 'DocumentIndexer' object has no attribute 'stop_words'
+[2025-02-28 11:51:00,392] WARNING in _internal:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2025-02-28 11:51:00,392] INFO in _internal:  * Running on http://172.17.0.2:5000/ (Press CTRL+C to quit)
+[2025-02-28 11:51:00,392] INFO in _internal:  * Restarting with stat
+[2025-02-28 11:51:00,679] WARNING in _internal:  * Debugger is active!
+[2025-02-28 11:51:00,680] INFO in _internal:  * Debugger PIN: 114-877-150
+[2025-02-28 11:51:03,215] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 11:51:03] "GET / HTTP/1.1" 200 -
+[2025-02-28 11:51:38,091] INFO in _internal:  * Detected change in '/project/sandbox/user-workspace/cdp-chatbot/run.py', reloading
+[2025-02-28 11:51:38,161] INFO in _internal:  * Restarting with stat
+[2025-02-28 11:51:38,434] WARNING in _internal:  * Debugger is active!
+[2025-02-28 11:51:38,434] INFO in _internal:  * Debugger PIN: 114-877-150
+[2025-02-28 11:52:31,999] INFO in _internal:  * Detected change in '/project/sandbox/user-workspace/cdp-chatbot/run.py', reloading
+[2025-02-28 11:52:32,071] INFO in _internal:  * Restarting with stat
+[2025-02-28 11:52:32,369] WARNING in _internal:  * Debugger is active!
+[2025-02-28 11:52:32,370] INFO in _internal:  * Debugger PIN: 114-877-150
+[2025-02-28 11:52:53,246] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 11:52:53] "POST /api/chat HTTP/1.1" 200 -
+[2025-02-28 11:54:32,165] WARNING in _internal:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2025-02-28 11:54:32,165] INFO in _internal:  * Running on http://172.17.0.2:5000/ (Press CTRL+C to quit)
+[2025-02-28 11:54:32,166] INFO in _internal:  * Restarting with stat
+[2025-02-28 11:54:32,433] WARNING in _internal:  * Debugger is active!
+[2025-02-28 11:54:32,434] INFO in _internal:  * Debugger PIN: 114-877-150
+[2025-02-28 11:55:00,866] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 11:55:00] "POST /api/chat HTTP/1.1" 200 -
+[2025-02-28 11:55:39,911] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 11:55:39] "GET / HTTP/1.1" 200 -
+[2025-02-28 11:55:39,923] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 11:55:39] "GET /static/css/style.css HTTP/1.1" 200 -
+[2025-02-28 11:55:39,926] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 11:55:39] "GET /static/js/main.js HTTP/1.1" 200 -
+[2025-02-28 11:55:39,954] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 11:55:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-02-28 11:56:50,252] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 11:56:50] "POST /api/chat HTTP/1.1" 200 -
+[2025-02-28 11:57:57,266] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 11:57:57] "POST /api/chat HTTP/1.1" 200 -
+[2025-02-28 12:02:16,244] INFO in _internal:  * Detected change in '/project/sandbox/user-workspace/cdp-chatbot/run.py', reloading
+[2025-02-28 12:02:16,314] INFO in _internal:  * Restarting with stat
+[2025-02-28 12:02:16,573] WARNING in _internal:  * Debugger is active!
+[2025-02-28 12:02:16,574] INFO in _internal:  * Debugger PIN: 114-877-150
+[2025-02-28 12:02:30,068] WARNING in _internal:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2025-02-28 12:02:30,068] INFO in _internal:  * Running on http://172.17.0.2:5001/ (Press CTRL+C to quit)
+[2025-02-28 12:02:30,068] INFO in _internal:  * Restarting with stat
+[2025-02-28 12:02:30,359] WARNING in _internal:  * Debugger is active!
+[2025-02-28 12:02:30,360] INFO in _internal:  * Debugger PIN: 724-864-215
+[2025-02-28 12:02:33,135] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:02:33] "GET / HTTP/1.1" 200 -
+[2025-02-28 12:02:42,001] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:02:42] "GET / HTTP/1.1" 200 -
+[2025-02-28 12:02:42,352] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:02:42] "GET /static/js/main.js HTTP/1.1" 200 -
+[2025-02-28 12:02:42,559] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:02:42] "GET /static/css/style.css HTTP/1.1" 200 -
+[2025-02-28 12:02:44,968] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:02:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-02-28 12:02:45,736] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:02:45] "GET / HTTP/1.1" 200 -
+[2025-02-28 12:02:45,750] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:02:45] "GET /static/css/style.css HTTP/1.1" 200 -
+[2025-02-28 12:02:45,751] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:02:45] "GET /static/js/main.js HTTP/1.1" 200 -
+[2025-02-28 12:02:45,779] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:02:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-02-28 12:03:22,814] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:03:22] "POST /api/chat HTTP/1.1" 200 -
+[2025-02-28 12:03:23,794] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:03:23] "POST /api/chat HTTP/1.1" 200 -
+[2025-02-28 12:03:29,896] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:03:29] "POST /api/chat HTTP/1.1" 200 -
+[2025-02-28 12:03:37,461] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:03:37] "POST /api/chat HTTP/1.1" 200 -
+[2025-02-28 12:04:04,052] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:04:04] "POST /api/chat HTTP/1.1" 200 -
+[2025-02-28 12:09:39,279] INFO in scraper: Updating documentation for segment...
+[2025-02-28 12:11:41,015] ERROR in scraper: Failed to fetch https://segment.com/docs/config-api/authentication/: 404 Client Error: Not Found for url: https://segment.com/docs/config-api/authentication/
+[2025-02-28 12:11:41,016] ERROR in scraper: Error processing https://segment.com/docs/config-api/authentication/: 404 Client Error: Not Found for url: https://segment.com/docs/config-api/authentication/
+[2025-02-28 12:12:20,434] WARNING in _internal:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[2025-02-28 12:12:20,434] INFO in _internal:  * Running on http://172.17.0.2:5001/ (Press CTRL+C to quit)
+[2025-02-28 12:12:20,435] INFO in _internal:  * Restarting with stat
+[2025-02-28 12:12:20,734] WARNING in _internal:  * Debugger is active!
+[2025-02-28 12:12:20,734] INFO in _internal:  * Debugger PIN: 724-864-215
+[2025-02-28 12:12:40,710] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:12:40] "GET / HTTP/1.1" 200 -
+[2025-02-28 12:12:40,722] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:12:40] "GET /static/css/style.css HTTP/1.1" 200 -
+[2025-02-28 12:12:40,725] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:12:40] "GET /static/js/main.js HTTP/1.1" 200 -
+[2025-02-28 12:12:40,761] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:12:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-02-28 12:14:00,520] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:14:00] "POST /api/chat HTTP/1.1" 200 -
+[2025-02-28 12:14:50,549] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:14:50] "POST /api/chat HTTP/1.1" 200 -
+[2025-02-28 12:18:36,974] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:18:36] "GET / HTTP/1.1" 200 -
+[2025-02-28 12:18:37,325] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:18:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+[2025-02-28 12:18:37,330] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:18:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+[2025-02-28 12:18:42,143] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:18:42] "POST /api/chat HTTP/1.1" 200 -
+[2025-02-28 12:18:52,577] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:18:52] "POST /api/chat HTTP/1.1" 200 -
+[2025-02-28 12:18:59,440] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:18:59] "POST /api/chat HTTP/1.1" 200 -
+[2025-02-28 12:19:14,431] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 12:19:14] "POST /api/chat HTTP/1.1" 200 -
+[2025-02-28 22:25:33,254] ERROR in indexer: Error initializing indexer: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\rouna/nltk_data'
+    - 'C:\\Users\\rouna\\Downloads\\cdp-chatbot-main\\venv\\nltk_data'
+    - 'C:\\Users\\rouna\\Downloads\\cdp-chatbot-main\\venv\\share\\nltk_data'
+    - 'C:\\Users\\rouna\\Downloads\\cdp-chatbot-main\\venv\\lib\\nltk_data'
+    - 'C:\\Users\\rouna\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+[2025-02-28 22:27:33,948] ERROR in indexer: Error initializing indexer: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\rouna/nltk_data'
+    - 'C:\\Users\\rouna\\Downloads\\cdp-chatbot-main\\venv\\nltk_data'
+    - 'C:\\Users\\rouna\\Downloads\\cdp-chatbot-main\\venv\\share\\nltk_data'
+    - 'C:\\Users\\rouna\\Downloads\\cdp-chatbot-main\\venv\\lib\\nltk_data'
+    - 'C:\\Users\\rouna\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+[2025-02-28 22:28:51,972] INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.29.204:5001
+[2025-02-28 22:28:51,972] INFO in _internal: [33mPress CTRL+C to quit[0m
+[2025-02-28 22:28:51,972] INFO in _internal:  * Restarting with stat
+[2025-02-28 22:28:52,747] WARNING in _internal:  * Debugger is active!
+[2025-02-28 22:28:52,756] INFO in _internal:  * Debugger PIN: 484-161-248
+[2025-02-28 22:29:16,251] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 22:29:16] "GET / HTTP/1.1" 200 -
+[2025-02-28 22:29:16,480] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 22:29:16] "GET /static/css/style.css HTTP/1.1" 200 -
+[2025-02-28 22:29:16,488] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 22:29:16] "GET /static/js/main.js HTTP/1.1" 200 -
+[2025-02-28 22:29:16,628] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 22:29:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-02-28 22:29:22,873] INFO in _internal: 127.0.0.1 - - [28/Feb/2025 22:29:22] "POST /api/chat HTTP/1.1" 200 -

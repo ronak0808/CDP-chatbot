@@ -1,0 +1,17 @@
+{
+  "platform": "segment",
+  "sections": [
+    {
+      "title": "Setting up a Source",
+      "content": "To set up a new source in Segment:\n\n1. Log in to your Segment workspace\n2. Click on 'Add Source' in the Sources section\n3. Browse or search for the type of source you want to add\n4. Select your source and click 'Add Source'\n5. Configure your source settings:\n   - Give your source a meaningful name\n   - Set up the appropriate write key\n   - Configure any source-specific settings\n6. Follow the source-specific installation instructions\n7. Verify your installation by checking the debugger\n\nMake sure to test your implementation before going live with production data."
+    },
+    {
+      "title": "Source Types",
+      "content": "Segment supports various types of sources:\n\n- Website sources (Analytics.js)\n- Mobile app sources (iOS, Android)\n- Server-side sources (Node.js, Python, Ruby)\n- Cloud app sources (Salesforce, Zendesk)\n- Database sources (PostgreSQL, MySQL)\n\nEach source type has its own specific setup instructions and best practices."
+    },
+    {
+      "title": "Source Configuration",
+      "content": "When configuring a source in Segment:\n\n1. Set up tracking plan\n2. Configure data collection settings\n3. Set up schema controls\n4. Enable or disable specific integrations\n5. Configure API settings and authentication\n6. Set up event filtering if needed\n7. Configure data retention settings"
+    }
+  ]
+}

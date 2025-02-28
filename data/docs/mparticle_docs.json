@@ -1,0 +1,13 @@
+{
+  "platform": "mparticle",
+  "sections": [
+    {
+      "title": "Creating User Profiles",
+      "content": "To create a user profile in mParticle:\n\n1. Log in to your mParticle dashboard\n2. Navigate to the 'Audience' section\n3. Click 'Create Profile'\n4. Configure user attributes:\n   - Set basic information (name, email, etc.)\n   - Add custom attributes as needed\n   - Configure identity mappings\n5. Set up user identifiers:\n   - Customer ID\n   - Email\n   - Device ID\n   - Custom identifiers\n6. Configure profile settings:\n   - Privacy settings\n   - Data retention rules\n   - Access controls\n7. Save and activate the profile\n\nEnsure all mandatory fields are filled and validate the profile before activation."
+    },
+    {
+      "title": "Profile Management",
+      "content": "mParticle user profiles support:\n\n- Real-time profile updates\n- Cross-device identity resolution\n- Custom attribute management\n- Audience segmentation\n- Profile merging and deduplication\n- Privacy compliance tools\n- Profile analytics and reporting"
+    }
+  ]
+}

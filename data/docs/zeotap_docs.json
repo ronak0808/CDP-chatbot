@@ -1,0 +1,13 @@
+{
+  "platform": "zeotap",
+  "sections": [
+    {
+      "title": "Getting Started",
+      "content": "Getting started with Zeotap CDP:\n\n1. Platform Overview:\n   - User interface navigation\n   - Key features and capabilities\n   - Data management tools\n   - Integration options\n\n2. Initial Setup:\n   - Account configuration\n   - User permissions\n   - Data source connections\n   - Security settings\n\n3. Data Management:\n   - Data ingestion methods\n   - Identity resolution\n   - Data quality rules\n   - Privacy compliance"
+    },
+    {
+      "title": "Audience Management",
+      "content": "Managing audiences in Zeotap:\n\n1. Creating Segments:\n   - Define target audience\n   - Set segment rules\n   - Apply filters\n   - Schedule updates\n\n2. Audience Analytics:\n   - Size estimation\n   - Overlap analysis\n   - Performance tracking\n   - Attribution reporting\n\n3. Activation:\n   - Channel selection\n   - Campaign setup\n   - Frequency controls\n   - Performance monitoring"
+    }
+  ]
+}

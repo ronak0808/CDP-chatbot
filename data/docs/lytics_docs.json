@@ -1,0 +1,13 @@
+{
+  "platform": "lytics",
+  "sections": [
+    {
+      "title": "Building Audience Segments",
+      "content": "To build an audience segment in Lytics:\n\n1. Access the Lytics dashboard\n2. Go to 'Audiences' section\n3. Click 'Create New Audience'\n4. Define segment criteria:\n   - Select behavioral attributes\n   - Add demographic filters\n   - Set engagement rules\n   - Configure time-based conditions\n5. Set up advanced rules:\n   - Boolean logic (AND/OR)\n   - Nested conditions\n   - Custom attributes\n6. Test your segment:\n   - Preview audience size\n   - Validate segment rules\n   - Check for data quality\n7. Activate the segment\n\nMonitor segment performance and adjust rules as needed."
+    },
+    {
+      "title": "Audience Comparison",
+      "content": "When comparing audience creation in Lytics vs other platforms:\n\n1. Lytics Unique Features:\n   - Machine learning-powered segmentation\n   - Behavioral scoring\n   - Predictive modeling\n   - Real-time audience updates\n\n2. Key Differentiators:\n   - Advanced behavioral targeting\n   - Content affinity analysis\n   - Cross-channel identity resolution\n   - Automated segment optimization\n\n3. Integration Capabilities:\n   - Direct API connections\n   - Pre-built marketing tool integrations\n   - Custom webhook support\n   - Real-time data synchronization"
+    }
+  ]
+}

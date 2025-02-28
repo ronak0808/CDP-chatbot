@@ -1,0 +1,220 @@
+:root {
+    --primary-color: #2962ff;
+    --secondary-color: #0039cb;
+    --background-color: #f5f5f5;
+    --chat-bg: #ffffff;
+    --text-color: #333333;
+    --bot-message-bg: #e3f2fd;
+    --user-message-bg: #e8eaf6;
+    --border-radius: 8px;
+    --spacing: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: var(--spacing);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    margin-bottom: var(--spacing);
+}
+
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 1.1em;
+}
+
+.chat-container {
+    background-color: var(--chat-bg);
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: var(--spacing);
+}
+
+#chat-messages {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: var(--spacing);
+}
+
+.message {
+    margin-bottom: 16px;
+    max-width: 80%;
+}
+
+.message.bot {
+    margin-right: auto;
+}
+
+.message.user {
+    margin-left: auto;
+}
+
+.message-content {
+    padding: 12px 16px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.bot .message-content {
+    background-color: var(--bot-message-bg);
+}
+
+.user .message-content {
+    background-color: var(--user-message-bg);
+    color: var(--text-color);
+}
+
+.input-container {
+    padding: var(--spacing);
+    border-top: 1px solid #eee;
+}
+
+#chat-form {
+    display: flex;
+    gap: 12px;
+}
+
+#user-input {
+    flex-grow: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+#user-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+footer {
+    text-align: center;
+    color: #666;
+}
+
+.examples {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.examples li {
+    background-color: var(--chat-bg);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.examples li:hover {
+    background-color: var(--bot-message-bg);
+}
+
+/* Bot message styling */
+.bot .message-content ul {
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.bot .message-content li {
+    margin-bottom: 4px;
+}
+
+/* Loading animation */
+.loading {
+    display: flex;
+    gap: 8px;
+    padding: 12px 16px;
+    background-color: var(--bot-message-bg);
+    border-radius: var(--border-radius);
+    width: fit-content;
+}
+
+.loading span {
+    width: 8px;
+    height: 8px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    animation: bounce 1.4s infinite ease-in-out;
+}
+
+.loading span:nth-child(1) { animation-delay: -0.32s; }
+.loading span:nth-child(2) { animation-delay: -0.16s; }
+
+@keyframes bounce {
+    0%, 80%, 100% { transform: scale(0); }
+    40% { transform: scale(1); }
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .message {
+        max-width: 90%;
+    }
+
+    .examples {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .examples li {
+        width: 100%;
+        text-align: center;
+    }
+}
